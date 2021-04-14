@@ -1,0 +1,12 @@
+#Question at https://leetcode.com/problems/palindrome-number/
+
+import math
+x = int(input())
+z = list(map(int, str(x)))
+y = (z[::-1])
+a = ''.join(map(str, y))
+
+if int(x) == int(a):
+    print("true")
+else:
+    print ("false")

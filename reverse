@@ -1,0 +1,8 @@
+Question at https://leetcode.com/problems/reverse-integer/
+
+import math
+x = int(input())
+z = list(map(int, str(x)))
+y = (z[::-1])
+a = ''.join(map(str, y))
+print(a)
